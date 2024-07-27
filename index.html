@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc Mừng Sinh Nhật</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+        }
+        .container {
+            position: relative;
+            margin-top: 100px;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: bounceIn 2s ease-out;
+            z-index: 1;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1 {
+            color: #ff6f61;
+            font-size: 3em;
+            text-shadow: 2px 2px #ffcc00;
+            animation: shake 1s infinite;
+        }
+        p {
+            font-size: 22px;
+            color: #333;
+            margin: 20px 0;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .decor {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-image: url('https://www.example.com/your-image.png'); /* Đổi thành URL hình ảnh của bạn */
+            background-size: cover;
+            animation: float 6s ease-in-out infinite;
+            opacity: 0.7;
+        }
+        .decor1 {
+            top: 10%;
+            left: 10%;
+        }
+        .decor2 {
+            bottom: 10%;
+            right: 10%;
+        }
+        .decor3 {
+            top: 30%;
+            right: 20%;
+        }
+        .decor4 {
+            bottom: 30%;
+            left: 20%;
+        }
+        @keyframes bounceIn {
+            0% { transform: scale(0); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        @keyframes shake {
+            0% { transform: translateX(-10px); }
+            50% { transform: translateX(10px); }
+            100% { transform: translateX(-10px); }
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chúc Mừng Sinh Nhật Đàm Đức Anh!</h1>
+        <p>Chúc mừng sinh nhật bạn, Đàm Đức Anh!</p>
+        <p>Hôm nay là một ngày đặc biệt, và chúng tôi muốn gửi đến bạn những lời chúc tốt đẹp nhất. Chúc bạn một ngày sinh nhật vui vẻ, tràn đầy niềm vui và hạnh phúc. Bạn không chỉ là một sinh viên xuất sắc tại trường Đại học Xây dựng mà còn là một người bạn đáng quý. Hy vọng rằng năm mới sẽ mang đến cho bạn nhiều thành công và niềm vui mới. Hãy luôn giữ nụ cười trên môi và theo đuổi đam mê của mình!</p>
+        <p>Chúc bạn sức khỏe, thành công và hạnh phúc trong những năm tháng tới!</p>
+    </div>
+    <div class="decor decor1"></div>
+    <div class="decor decor2"></div>
+    <div class="decor decor3"></div>
+    <div class="decor decor4"></div>
+</body>
+</html>
